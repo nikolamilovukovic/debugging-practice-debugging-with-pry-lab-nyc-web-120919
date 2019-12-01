@@ -1,6 +1,5 @@
 class Person
   attr_accessor :name, :candy_lover
-  binding.pry
 
   def initialize(name, candy_lover)
     @name = name
@@ -25,6 +24,7 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
+        binding.pry
     end
   end
 end 
